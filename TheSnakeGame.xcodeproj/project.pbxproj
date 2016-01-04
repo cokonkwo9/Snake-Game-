@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3AEB16DD1C3880A9003B3827 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AEB16DC1C3880A9003B3827 /* main.m */; };
+		3A2DB1271C38823900EEABB4 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DB11C1C38823900EEABB4 /* background.png */; settings = {ASSET_TAGS = (); }; };
+		3A2DB1281C38823900EEABB4 /* Food.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DB11D1C38823900EEABB4 /* Food.png */; settings = {ASSET_TAGS = (); }; };
+		3A2DB1291C38823900EEABB4 /* Snake.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DB11E1C38823900EEABB4 /* Snake.png */; settings = {ASSET_TAGS = (); }; };
+		3A2DB12A1C38823900EEABB4 /* MenuBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DB11F1C38823900EEABB4 /* MenuBackground.png */; settings = {ASSET_TAGS = (); }; };
+		3A2DB12B1C38823900EEABB4 /* GameBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DB1201C38823900EEABB4 /* GameBackground.png */; settings = {ASSET_TAGS = (); }; };
+		3A2DB12C1C38823900EEABB4 /* Snake Tutorial-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DB1211C38823900EEABB4 /* Snake Tutorial-Info.plist */; settings = {ASSET_TAGS = (); }; };
+		3A2DB12D1C38823900EEABB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DB1231C38823900EEABB4 /* InfoPlist.strings */; settings = {ASSET_TAGS = (); }; };
+		3A2DB12E1C38823900EEABB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2DB1241C38823900EEABB4 /* main.m */; settings = {ASSET_TAGS = (); }; };
 		3AEB16E01C3880A9003B3827 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AEB16DF1C3880A9003B3827 /* AppDelegate.m */; };
 		3AEB16E31C3880A9003B3827 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AEB16E21C3880A9003B3827 /* ViewController.m */; };
-		3AEB16E61C3880A9003B3827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AEB16E41C3880A9003B3827 /* Main.storyboard */; };
 		3AEB16E81C3880A9003B3827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AEB16E71C3880A9003B3827 /* Assets.xcassets */; };
 		3AEB16EB1C3880A9003B3827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AEB16E91C3880A9003B3827 /* LaunchScreen.storyboard */; };
 		3AEB16F61C3880A9003B3827 /* TheSnakeGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AEB16F51C3880A9003B3827 /* TheSnakeGameTests.m */; };
 		3AEB17011C3880A9003B3827 /* TheSnakeGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AEB17001C3880A9003B3827 /* TheSnakeGameUITests.m */; };
+		3AEB170F1C3880C8003B3827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AEB170E1C3880C8003B3827 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		3AEB17121C3880DC003B3827 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AEB17111C3880DC003B3827 /* Game.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +43,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A2DB11C1C38823900EEABB4 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		3A2DB11D1C38823900EEABB4 /* Food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Food.png; sourceTree = "<group>"; };
+		3A2DB11E1C38823900EEABB4 /* Snake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snake.png; sourceTree = "<group>"; };
+		3A2DB11F1C38823900EEABB4 /* MenuBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBackground.png; sourceTree = "<group>"; };
+		3A2DB1201C38823900EEABB4 /* GameBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBackground.png; sourceTree = "<group>"; };
+		3A2DB1211C38823900EEABB4 /* Snake Tutorial-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Snake Tutorial-Info.plist"; sourceTree = "<group>"; };
+		3A2DB1221C38823900EEABB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A2DB1241C38823900EEABB4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A2DB1251C38823900EEABB4 /* Snake Tutorial-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Snake Tutorial-Prefix.pch"; sourceTree = "<group>"; };
 		3AEB16D81C3880A9003B3827 /* TheSnakeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheSnakeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AEB16DC1C3880A9003B3827 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3AEB16DE1C3880A9003B3827 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3AEB16DF1C3880A9003B3827 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3AEB16E11C3880A9003B3827 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3AEB16E21C3880A9003B3827 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3AEB16E51C3880A9003B3827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AEB16E71C3880A9003B3827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AEB16EA1C3880A9003B3827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AEB16EC1C3880A9003B3827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +66,9 @@
 		3AEB16FC1C3880A9003B3827 /* TheSnakeGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSnakeGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AEB17001C3880A9003B3827 /* TheSnakeGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheSnakeGameUITests.m; sourceTree = "<group>"; };
 		3AEB17021C3880A9003B3827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AEB170E1C3880C8003B3827 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3AEB17101C3880D6003B3827 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		3AEB17111C3880DC003B3827 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +96,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A2DB1261C38823900EEABB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A2DB11C1C38823900EEABB4 /* background.png */,
+				3A2DB11D1C38823900EEABB4 /* Food.png */,
+				3A2DB11E1C38823900EEABB4 /* Snake.png */,
+				3A2DB11F1C38823900EEABB4 /* MenuBackground.png */,
+				3A2DB1201C38823900EEABB4 /* GameBackground.png */,
+				3A2DB1211C38823900EEABB4 /* Snake Tutorial-Info.plist */,
+				3A2DB1231C38823900EEABB4 /* InfoPlist.strings */,
+				3A2DB1241C38823900EEABB4 /* main.m */,
+				3A2DB1251C38823900EEABB4 /* Snake Tutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = "../../../Downloads/Snake Tutorial (Updated for Xcode 6) 3/Snake Tutorial/Snake Tutorial";
+			sourceTree = "<group>";
+		};
 		3AEB16CF1C3880A9003B3827 = {
 			isa = PBXGroup;
 			children = (
@@ -103,23 +138,17 @@
 			children = (
 				3AEB16DE1C3880A9003B3827 /* AppDelegate.h */,
 				3AEB16DF1C3880A9003B3827 /* AppDelegate.m */,
+				3AEB170E1C3880C8003B3827 /* Main.storyboard */,
 				3AEB16E11C3880A9003B3827 /* ViewController.h */,
 				3AEB16E21C3880A9003B3827 /* ViewController.m */,
-				3AEB16E41C3880A9003B3827 /* Main.storyboard */,
+				3AEB17101C3880D6003B3827 /* Game.h */,
+				3AEB17111C3880DC003B3827 /* Game.m */,
 				3AEB16E71C3880A9003B3827 /* Assets.xcassets */,
 				3AEB16E91C3880A9003B3827 /* LaunchScreen.storyboard */,
 				3AEB16EC1C3880A9003B3827 /* Info.plist */,
-				3AEB16DB1C3880A9003B3827 /* Supporting Files */,
+				3A2DB1261C38823900EEABB4 /* Supporting Files */,
 			);
 			path = TheSnakeGame;
-			sourceTree = "<group>";
-		};
-		3AEB16DB1C3880A9003B3827 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3AEB16DC1C3880A9003B3827 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		3AEB16F41C3880A9003B3827 /* TheSnakeGameTests */ = {
@@ -247,8 +276,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AEB16EB1C3880A9003B3827 /* LaunchScreen.storyboard in Resources */,
+				3A2DB12A1C38823900EEABB4 /* MenuBackground.png in Resources */,
+				3A2DB1271C38823900EEABB4 /* background.png in Resources */,
+				3A2DB1291C38823900EEABB4 /* Snake.png in Resources */,
+				3A2DB12C1C38823900EEABB4 /* Snake Tutorial-Info.plist in Resources */,
+				3A2DB1281C38823900EEABB4 /* Food.png in Resources */,
 				3AEB16E81C3880A9003B3827 /* Assets.xcassets in Resources */,
-				3AEB16E61C3880A9003B3827 /* Main.storyboard in Resources */,
+				3AEB170F1C3880C8003B3827 /* Main.storyboard in Resources */,
+				3A2DB12B1C38823900EEABB4 /* GameBackground.png in Resources */,
+				3A2DB12D1C38823900EEABB4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +311,8 @@
 			files = (
 				3AEB16E31C3880A9003B3827 /* ViewController.m in Sources */,
 				3AEB16E01C3880A9003B3827 /* AppDelegate.m in Sources */,
-				3AEB16DD1C3880A9003B3827 /* main.m in Sources */,
+				3A2DB12E1C38823900EEABB4 /* main.m in Sources */,
+				3AEB17121C3880DC003B3827 /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,12 +348,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3AEB16E41C3880A9003B3827 /* Main.storyboard */ = {
+		3A2DB1231C38823900EEABB4 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3AEB16E51C3880A9003B3827 /* Base */,
+				3A2DB1221C38823900EEABB4 /* en */,
 			);
-			name = Main.storyboard;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		3AEB16E91C3880A9003B3827 /* LaunchScreen.storyboard */ = {
@@ -499,6 +536,7 @@
 				3AEB17071C3880A9003B3827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AEB17081C3880A9003B3827 /* Build configuration list for PBXNativeTarget "TheSnakeGameTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +545,7 @@
 				3AEB170A1C3880A9003B3827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AEB170B1C3880A9003B3827 /* Build configuration list for PBXNativeTarget "TheSnakeGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +554,7 @@
 				3AEB170D1C3880A9003B3827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
